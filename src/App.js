@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+// Importing the App.css
 import './App.css';
+// Importing the Page component
+import Page from './Page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* Rendering the Page component */}
+      <Page/>
     </div>
   );
 }
-
+// Exporting the App component
 export default App;
